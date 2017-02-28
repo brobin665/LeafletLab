@@ -1,0 +1,76 @@
+/* Stylesheet by Brian Robinson, 2017 */
+body{
+	height:800px;
+	
+}
+
+#header h3, h2{
+	padding-right:20%;
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#map { 
+	height: 70%;
+	width: 80%;
+	display: inline-block;
+	
+}
+#panel {
+    float: right;
+    margin-right: 10px;
+    width: 14%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+	background-color: #85bb65;
+	opacity: .8;
+	border:double;
+	border-color: black;
+	font-size: 12pt;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.sequence-control-container {
+    width: 350px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.legend-control-container {
+    width: 150px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 2px;
+    text-align: center;
+    border: solid gray 1px;
+	font-size:12pt;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.attribute-legend{
+	padding-left: 2px;
+	padding-top: 15px;
+}
+.range-slider {
+    width: 200px;
+}
+
+
+#forward {
+    float: right;
+}
+
+#reverse {
+    float: left;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+#sources{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:dimgray;
+}
